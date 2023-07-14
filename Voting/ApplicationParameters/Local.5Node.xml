@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="fabric:/ETC" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <Parameters>
+    <Parameter Name="WebStatistics_InstanceCount" Value="1" />
+    <Parameter Name="WebStatistics_ASPNETCORE_ENVIRONMENT" Value="Development" />
+    <Parameter Name="Approver_InstanceCount" Value="1" />
+    <Parameter Name="Approver_ASPNETCORE_ENVIRONMENT" Value="Development" />
+    <Parameter Name="ETCstorage_PartitionCount" Value="1" />
+    <Parameter Name="ETCstorage_MinReplicaSetSize" Value="3" />
+    <Parameter Name="ETCstorage_TargetReplicaSetSize" Value="3" />
+    <Parameter Name="ETCstorage_ASPNETCORE_ENVIRONMENT" Value="Development" />
+    <Parameter Name="TrafficGenerator_ASPNETCORE_ENVIRONMENT" Value="Development" />
+    <Parameter Name="TrafficGenerator_InstanceCount" Value="1" />
+    <Parameter Name="ETCWeb_ASPNETCORE_ENVIRONMENT" Value="Development" />
+    <Parameter Name="ETCWeb_InstanceCount" Value="1" />
+  </Parameters>
+</Application>
